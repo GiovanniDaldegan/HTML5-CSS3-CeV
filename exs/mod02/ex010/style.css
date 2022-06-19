@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div {
+    background-color: thistle;
+    
+}
+
+div.div_interativa:hover {
+    background-color: violet;
+}
+
+a {
+    color: tomato;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5c4dbd;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(56, 47, 109);
+}
+
+a:active {
+    color: #2f265f;
+}
+
+a::before { content: "> "; }
+a::after { content: " <"; }
